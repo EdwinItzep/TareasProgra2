@@ -1,0 +1,32 @@
+#nav{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+}
+.Inicio a, Inicio li{
+    color:blue;
+    font-size: 25px;
+    width: 200px;
+    height: 100px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: all 1s;
+}
+.Inicio a:hover, .Inicio li:hover{
+    background-color: brown;
+    font-size: 20px;
+    transition: 1s;
+}
+.Logo{
+    width : 150px;
+    margin-left: 25px;
+}
+.Inicio{
+    display: flex;
+}
